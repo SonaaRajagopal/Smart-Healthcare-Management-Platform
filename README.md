@@ -346,12 +346,3 @@ Leverage Gemini API to generate intelligent healthcare summaries and recommendat
 
 Understand why models generated specific healthcare predictions using SHAP visualizations.
 
-
-
----
-
-
-
-GitHub: https://github.com/SonaaRajagopal  
-
-LinkedIn: www.linkedin.com/in/sonaa-rajagopal
