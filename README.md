@@ -246,83 +246,8 @@ Smart-Healthcare-Management-Platform/
 
 
 
----
 
 
 
-# Dashboard Highlights
 
-
-
-- Patient health monitoring dashboard
-
-- Disease probability visualization
-
-- Forecast trend graphs
-
-- SHAP explainability charts
-
-- CSV upload and analysis workflow
-
-- Real-time prediction summaries
-
-
-
----
-
-
-
-# Key Functionalities
-
-
-
-## Patient Risk Assessment
-
-Analyze patient records and generate disease risk predictions using AI models.
-
-
-
-## Explainability Dashboard
-
-Visualize prediction explanations and feature importance using SHAP.
-
-
-
-## Forecasting Engine
-
-Predict future health deterioration using Temporal Fusion Transformer models.
-
-
-
-## CSV Analysis
-
-Upload patient datasets for real-time bulk prediction and analytics.
-
-
-
-## AI Clinical Insights
-
-Generate intelligent healthcare summaries and recommendations using Gemini API.
-
-
-
----
-
-
-
-# Future Improvements
-
-
-
-- Electronic Health Record (EHR) integration
-
-- Multi-hospital deployment support
-
-- Real-time wearable device monitoring
-
-- Federated learning for privacy-preserving healthcare AI
-
-- Voice-assisted healthcare analytics
-
-- Advanced medical imaging integration
 
