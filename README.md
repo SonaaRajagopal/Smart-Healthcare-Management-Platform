@@ -87,6 +87,61 @@ The platform integrates advanced machine learning models, forecasting architectu
 ---
 
 
+# System Architecture
+
+
+
+```text
+
+Frontend (NextJS + ReactJS)
+
+        ↓
+
+FastAPI Backend Services
+
+        ↓
+
+ML Prediction Engine
+
+(XGBoost / Random Forest / TFT)
+
+        ↓
+
+SHAP Explainability Layer
+
+        ↓
+
+Gemini API Insights Generation
+
+```
+
+
+
+
+# Project Structure
+
+```bash
+Smart-Healthcare-Management-Platform/
+│
+├── Dashboard Components/      # Healthcare Dashboard UI Components
+├── ML Models/                 # Trained ML & Forecasting Models
+├── app/                       # NextJS App Router Pages
+├── components/                # Reusable React Components
+├── hooks/                     # Custom React Hooks
+├── lib/                       # Utility Functions & Services
+├── metrics images/            # Model Metrics & Evaluation Graphs
+├── public/                    # Static Assets
+├── styles/                    # Global Styles
+│
+├── test_data.csv              # Sample Healthcare Dataset
+├── package.json               # Project Dependencies
+├── tsconfig.json              # TypeScript Configuration
+├── next.config.mjs            # NextJS Configuration
+└── README.md
+```
+
+---
+
 
 # AI & ML Capabilities
 
@@ -168,64 +223,6 @@ The forecasting system supports:
 
 
 
----
-
-
-
-# System Architecture
-
-
-
-```text
-
-Frontend (NextJS + ReactJS)
-
-        ↓
-
-FastAPI Backend Services
-
-        ↓
-
-ML Prediction Engine
-
-(XGBoost / Random Forest / TFT)
-
-        ↓
-
-SHAP Explainability Layer
-
-        ↓
-
-Gemini API Insights Generation
-
-```
-
-
-
-
-# Project Structure
-
-```bash
-Smart-Healthcare-Management-Platform/
-│
-├── Dashboard Components/      # Healthcare Dashboard UI Components
-├── ML Models/                 # Trained ML & Forecasting Models
-├── app/                       # NextJS App Router Pages
-├── components/                # Reusable React Components
-├── hooks/                     # Custom React Hooks
-├── lib/                       # Utility Functions & Services
-├── metrics images/            # Model Metrics & Evaluation Graphs
-├── public/                    # Static Assets
-├── styles/                    # Global Styles
-│
-├── test_data.csv              # Sample Healthcare Dataset
-├── package.json               # Project Dependencies
-├── tsconfig.json              # TypeScript Configuration
-├── next.config.mjs            # NextJS Configuration
-└── README.md
-```
-
----
 
 
 
