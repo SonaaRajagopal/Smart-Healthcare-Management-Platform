@@ -202,47 +202,30 @@ Gemini API Insights Generation
 
 
 
----
-
-
 
 # Project Structure
 
-
-
 ```bash
-
 Smart-Healthcare-Management-Platform/
-
 │
-
-├── app/                    # NextJS App Router Pages
-
-├── components/             # Reusable UI Components
-
-├── hooks/                  # Custom React Hooks
-
-├── lib/                    # Utility Functions & Services
-
-├── metrics images/         # Model Metrics & Visualizations
-
-├── public/                 # Static Assets
-
-├── styles/                 # Global Styles
-
+├── Dashboard Components/      # Healthcare Dashboard UI Components
+├── ML Models/                 # Trained ML & Forecasting Models
+├── app/                       # NextJS App Router Pages
+├── components/                # Reusable React Components
+├── hooks/                     # Custom React Hooks
+├── lib/                       # Utility Functions & Services
+├── metrics images/            # Model Metrics & Evaluation Graphs
+├── public/                    # Static Assets
+├── styles/                    # Global Styles
 │
-
-├── test_data.csv           # Sample Healthcare Dataset
-
-├── package.json            # Project Dependencies
-
-├── tsconfig.json           # TypeScript Configuration
-
-├── next.config.mjs         # NextJS Configuration
-
+├── test_data.csv              # Sample Healthcare Dataset
+├── package.json               # Project Dependencies
+├── tsconfig.json              # TypeScript Configuration
+├── next.config.mjs            # NextJS Configuration
 └── README.md
-
 ```
+
+---
 
 
 
